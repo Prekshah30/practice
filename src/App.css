@@ -1,0 +1,35 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color:pink;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.upload-section, .summary-section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
